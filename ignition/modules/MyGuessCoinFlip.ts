@@ -1,5 +1,11 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
+// const MyGuessCoinFlip = buildModule("MyGuessCoinFlip", (m) => {
+//   const guessCoinFlip = m.contract("GuessCoinFlip");
+
+//   return { guessCoinFlip };
+// });
+
 const MyGuessCoinFlip = buildModule("MyGuessCoinFlip", (m) => {
   const guessCoinFlip = m.contractAt(
     "GuessCoinFlip",
