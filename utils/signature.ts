@@ -9,4 +9,4 @@ export function getFunctionSignature(
   return `0x${hash.slice(0, 8)}`;
 }
 
-// console.log(getFunctionSignature("pwn", []));
+// console.log(getFunctionSignature("claimKing", []));
